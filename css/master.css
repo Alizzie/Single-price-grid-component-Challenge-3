@@ -1,0 +1,204 @@
+/*
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+
+*/
+
+body{
+  background-color: hsl(204, 43%, 93%);
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.Introduction h2 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  margin: 0;
+}
+
+.Introduction h3 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.Introduction p {
+  line-height: 1.5rem;
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  margin: 0;
+}
+
+.Section h3 {
+  color: hsl(204, 43%, 93%);
+  margin: 0;
+}
+
+.Section h1 {
+  color: hsl(204, 43%, 93%);
+  margin: 15px 0 10px;
+}
+
+.Section span {
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+.Section p,li {
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.1rem;
+}
+
+.Section input {
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 2px;
+  border-style: none;
+  width: 100%;
+  height: 20%;
+  margin: 25px auto 25px;
+  padding: 10px;
+  text-align: center;
+  color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  box-shadow: 5px 5px 15px hsl(0, 0%, 0%,0.2);
+}
+
+.Cardbackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Card {
+  margin: 5% auto;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  box-shadow: 5px 5px 15px hsl(0, 0%, 0%,0.2);
+  border-radius: 2% 2% 2% 2%;
+}
+
+.Card2 {
+  width: 100%;
+}
+
+.Introduction{
+  background-color: white;
+  padding: 30px;
+  border-radius: 2% 2% 0 0;
+  width: 100%;
+}
+
+
+.Offer {
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+
+}
+
+.Argumentation {
+  background-color: hsl(179, 47%, 60%);
+  padding:30px;
+  border-radius: 0 0 2% 2%;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .Introduction {
+    width: auto;
+    border-radius: 10px 10px 0 0;
+    padding: 50px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+  }
+
+  .Card {
+    height: 32rem;
+    width: 43rem;
+    border-radius: 10px;
+  }
+
+  .Card2 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .Offer {
+    width: 50%;
+    border-radius: 0 0 0 10px;
+    padding: 50px;
+    padding-bottom: 30px;
+  }
+
+  .Argumentation {
+    width: 50%;
+    border-radius: 0 0 10px 0;
+    padding: 50px;
+    padding-bottom: 30px;
+  }
+
+  .Introduction h3 {
+    margin: 20px 0 10px;
+  }
+
+  .Introduction p {
+    line-height: 1.7rem;
+  }
+
+  .Section h1 {
+    margin: 20px 0 10px;
+  }
+
+  .Section span {
+    font-size: 1rem;
+    margin-left: 15px;
+  }
+
+  .Section input {
+    border-radius: 5px;
+    padding: 15px 0;
+    height: auto;
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 0;
+    margin-top: 35px;
+  }
+
+  .Section li, p {
+    line-height: 1.4rem;
+  }
+}
